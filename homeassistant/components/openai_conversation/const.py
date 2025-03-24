@@ -5,6 +5,7 @@ import logging
 DOMAIN = "openai_conversation"
 LOGGER: logging.Logger = logging.getLogger(__package__)
 
+CONF_AZURE_API_VERSION = "2024-06-01"
 CONF_PROVIDER = "provider"
 PROVIDER_OPENAI = "openai"
 PROVIDER_AZURE_OPENAI = "azure_openai"
@@ -13,7 +14,6 @@ CONF_AZURE_API_VERSION = "2024-06-01"
 CONF_CHAT_MODEL = "chat_model"
 CONF_FILENAMES = "filenames"
 CONF_MAX_TOKENS = "max_tokens"
-CONF_PROMPT = "prompt"
 CONF_PROMPT = "prompt"
 CONF_REASONING_EFFORT = "reasoning_effort"
 CONF_RECOMMENDED = "recommended"
